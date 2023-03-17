@@ -1,5 +1,52 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
+html
+{
+  height: 100%;
+  width: 100%;
+}
+
+.header
+{
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+}
+
+.column
+{
+  float: left;
+}
+
+.column.side
+{
+  width: 25%;
+}
+
+.column.middle
+{
+  width: 75%;
+}
+
+/* navbar container */
+.topnav
+{
+  overflow: hidden;
+  background-color: #eee;
+}
+
+/* navbar links */
+.topnav a
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* navbar links when hovered */
+.topnav a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
