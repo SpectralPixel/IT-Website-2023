@@ -4,13 +4,6 @@ html
   width: 100%;
 }
 
-.header
-{
-  background-color: #eee;
-  text-align: center;
-  padding: 10px;
-}
-
 .column
 {
   float: left;
@@ -24,6 +17,13 @@ html
 .column.middle
 {
   width: 85%;
+}
+
+.header
+{
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
 }
 
 /* navbar container */
